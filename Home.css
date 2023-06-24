@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(58, 71, 67);
+    background-image: url(./abu.jpg);
+        width: 60%;
+        height: 60vh;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    .btn a{
+        box-sizing: border-box;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        background-color: transparent;
+        border: 2px solid #c01300;
+        border-radius: 0.6em;
+        color: #e74c3c;
+        cursor: pointer;
+        display: flex;
+        align-self: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 2;
+        margin: 20px;
+        padding: 1.2em 2.8em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+      }
+      .btn:hover, .btn:focus {
+        color: #e4f70e00;
+        outline: 0;
+      }
+      .second {
+        border-radius: 3em;
+        border-color: #000000;
+        color: #000000;
+        background-position: 0,0;
+        background-size: 100%;
+        transition: 300ms ease-in-out;
+      }
+      .second:hover {
+        background-position: 100px;
+      }
+      *menu {
+        box-sizing: border-box;
+          -webkit-appearance: none;
+             -moz-appearance: none;
+                  appearance: none;
+          background-color: transparent;
+          border: 2px solid #e74c3c;
+          border-radius: 0.1em;
+          color: #e74c3c;
+          cursor: pointer;
+          display: flex;
+          align-self: center;
+          font-size: 1rem;
+          font-weight: 50;
+          line-height: 1;
+          margin: px;
+          padding: 1.2em 1.2em;
+          text-decoration: none;
+          text-align: right;
+          text-transform: none;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 100;
+        }
+        .btn:hover, .btn:focus {
+          color: #e4f70e00;
+          outline: 0;
+        }
+        .second {
+          border-radius: 3em;
+          border-color: #2e8b03;
+          color: #000000;
+          background-position: 0,0;
+          background-size: 100%;
+          transition: 100ms ease-in-out;
+        }
+        .second:hover {
+          background-position: 100px;
+        }
+      
+      menu {
+        text-decoration: none;
+        margin: 0;
+        padding: 0px;
+      }
+      container a{
+        width: 100px;
+        margin: auto;
+        position: relative;
+      }
+      .logo {
+        font-size: 20px;
+        font-weight: 800;
+        float: left;
+        font-family: courier;
+        color: #ffffff;
+      }
+      nav ul li a{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        line-height: 10px;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        background: rgba(255, 245, 245, 0);
+      }
+      
